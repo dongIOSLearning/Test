@@ -49,6 +49,7 @@
     dateLabel.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:dateLabel];
     NSLog(@";");
+    NSLog(@"test reset");
     NSLog(@"%f",dateStringSize.height);
 }
 
