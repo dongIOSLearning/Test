@@ -51,7 +51,7 @@
     NSLog(@"");
     NSLog(@"%f",dateStringSize.height);
     
-    NSLog(@"");
+    NSLog(@"woshi");
 }
 
 - (void)didReceiveMemoryWarning {
