@@ -48,9 +48,10 @@
     dateLabel.frame = dateFrame;
     dateLabel.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:dateLabel];
-    NSLog(@";");
-    NSLog(@"test reset");
+    NSLog(@"state");
     NSLog(@"%f",dateStringSize.height);
+    
+    NSLog(@"check out");
 }
 
 - (void)didReceiveMemoryWarning {
