@@ -16,6 +16,7 @@
 		F51AD47C1D9DE8BD008D6312 /* TextFingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51AD47B1D9DE8BD008D6312 /* TextFingerTests.m */; };
 		F51AD4871D9DE8BD008D6312 /* TextFingerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51AD4861D9DE8BD008D6312 /* TextFingerUITests.m */; };
 		F51AD4951D9DE8F4008D6312 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AD4941D9DE8F4008D6312 /* LocalAuthentication.framework */; };
+		F569DE911DF7D8FE00205C9E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F569DE901DF7D8FE00205C9E /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F51AD4861D9DE8BD008D6312 /* TextFingerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFingerUITests.m; sourceTree = "<group>"; };
 		F51AD4881D9DE8BD008D6312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51AD4941D9DE8F4008D6312 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F569DE8F1DF7D8FE00205C9E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F569DE901DF7D8FE00205C9E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				F51AD4651D9DE8BD008D6312 /* AppDelegate.m */,
 				F51AD4671D9DE8BD008D6312 /* ViewController.h */,
 				F51AD4681D9DE8BD008D6312 /* ViewController.m */,
+				F569DE8F1DF7D8FE00205C9E /* TestViewController.h */,
+				F569DE901DF7D8FE00205C9E /* TestViewController.m */,
 				F51AD46A1D9DE8BD008D6312 /* Main.storyboard */,
 				F51AD46D1D9DE8BD008D6312 /* Assets.xcassets */,
 				F51AD46F1D9DE8BD008D6312 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			files = (
 				F51AD4691D9DE8BD008D6312 /* ViewController.m in Sources */,
 				F51AD4661D9DE8BD008D6312 /* AppDelegate.m in Sources */,
+				F569DE911DF7D8FE00205C9E /* TestViewController.m in Sources */,
 				F51AD4631D9DE8BD008D6312 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +508,7 @@
 				F51AD48D1D9DE8BD008D6312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51AD48E1D9DE8BD008D6312 /* Build configuration list for PBXNativeTarget "TextFingerTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				F51AD4901D9DE8BD008D6312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51AD4911D9DE8BD008D6312 /* Build configuration list for PBXNativeTarget "TextFingerUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				F51AD4931D9DE8BD008D6312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
