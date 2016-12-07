@@ -50,6 +50,8 @@
     [self.view addSubview:dateLabel];
     NSLog(@"");
     NSLog(@"%f",dateStringSize.height);
+    
+    NSLog(@"");
 }
 
 - (void)didReceiveMemoryWarning {
